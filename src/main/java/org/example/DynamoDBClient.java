@@ -9,7 +9,7 @@ public class DynamoDBClient {
     private AmazonDynamoDB client;
 
     public DynamoDBClient() {
-        String accessKey = "AKIAQE2ZGWYOHD4Z5O77";
+        String accessKey = "AKI";
         String secretKey = "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";
 
         BasicAWSCredentials awsCredentials = new BasicAWSCredentials(accessKey, secretKey);
